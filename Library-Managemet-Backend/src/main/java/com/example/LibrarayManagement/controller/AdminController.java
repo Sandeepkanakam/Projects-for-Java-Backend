@@ -32,7 +32,10 @@ public class AdminController {
 
 
     }
-
+    @GetMapping("/get-demo")
+    public String getdemocheck(){
+        return "";
+    }
 }
 
 
