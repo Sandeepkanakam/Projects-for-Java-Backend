@@ -44,5 +44,7 @@ public class CacheConfig {
         redisTemplate.setValueSerializer(new JdkSerializationRedisSerializer());
         return redisTemplate;
     }
+   //just commiting some changes before commit and checking
+
 
 }
