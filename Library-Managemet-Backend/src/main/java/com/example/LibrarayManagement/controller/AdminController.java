@@ -36,6 +36,10 @@ public class AdminController {
     public String getdemocheck(){
         return "";
     }
+    @GetMapping("/getdemo2")
+    public String getDemo2(){
+        return "";
+    }
 }
 
 
