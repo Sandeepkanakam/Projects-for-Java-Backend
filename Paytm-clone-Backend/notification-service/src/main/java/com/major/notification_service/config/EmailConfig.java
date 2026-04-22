@@ -28,7 +28,8 @@ public class EmailConfig {
         properties.put("mail.smtp.starttls.enable", true);
         return javaMailSender;
     }
-
+//added code for notification comment
+    // checking with git version control
     @Bean
     SimpleMailMessage getMailMessage() {
         return new SimpleMailMessage();
