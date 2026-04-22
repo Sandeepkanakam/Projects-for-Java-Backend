@@ -29,7 +29,7 @@ public class EmailConfig {
         return javaMailSender;
     }
 //added code for notification comment
-    // checking with git version control
+    // checking with git version control  
     @Bean
     SimpleMailMessage getMailMessage() {
         return new SimpleMailMessage();
